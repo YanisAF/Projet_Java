@@ -30,5 +30,6 @@ public class Main {
                 .quantity(20).restock(ofEpochDay(13-02-2023)).typeArticle(GenreModeArticle.FEMININ).build();
         modeArticleRepository.create(modeArticle);
 
+
     }
 }
