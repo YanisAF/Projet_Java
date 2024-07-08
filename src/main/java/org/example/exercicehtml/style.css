@@ -1,0 +1,237 @@
+
+
+main{
+/* display: flex;
+flex-wrap: wrap; */
+}
+
+div{
+background-color: beige;
+width: 20%;
+height: 35vh;
+margin: 50px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 5%;
+left: 10%;
+}
+
+div:nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+div:nth-child(3){
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+div:nth-child(4){
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+div:nth-child(5){
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+div:nth-child(6){
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+
+div > span{
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+}
+
+span:nth-child(2){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+span:nth-child(3){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+span:nth-child(4){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+div:nth-child(2) span:nth-child(1){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+}
+
+div:nth-child(3) span:nth-child(1){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+}
+
+div:nth-child(3) span:nth-child(2){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+div:nth-child(4) span:nth-child(2){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+div:nth-child(4) span:nth-child(2){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+div:nth-child(4) span:nth-child(3){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+}
+
+div:nth-child(4) span:nth-child(4){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+div:nth-child(4) span:nth-child(5){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+div:nth-child(5) span:nth-child(1){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+div:nth-child(5) span:nth-child(2){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+div:nth-child(5) span:nth-child(3){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+div:nth-child(5) span:nth-child(4){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+div:nth-child(5) span:nth-child(5){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+}
+
+div:nth-child(5) span:nth-child(6){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+}
+
+div:nth-child(6) span:nth-child(2){
+    width: 20%;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+}
