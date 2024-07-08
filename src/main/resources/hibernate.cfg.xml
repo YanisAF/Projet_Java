@@ -4,9 +4,22 @@
         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <mapping class="org.example.exercicerecap.java.entity.Client"/>
-        <mapping class="org.example.exercicerecap.java.entity.Article"/>
-        <mapping class="org.example.exercicerecap.java.entity.NourritureArticle"/>
-        <mapping class="org.example.exercicerecap.java.entity.ModeArticle"/>
+        <mapping class="org.example.exercicerecap.entity.Client"/>
+        <mapping class="org.example.exercicerecap.entity.Article"/>
+        <mapping class="org.example.exercicerecap.entity.NourritureArticle"/>
+        <mapping class="org.example.exercicerecap.entity.ModeArticle"/>
+        <mapping class="org.example.exercicerecap.entity.ElectronicArticle"/>
+        <mapping class="org.example.exerciceperso.entity.comptesbancaires.CompteBancaire"/>
+        <mapping class="org.example.exerciceperso.entity.comptesbancaires.CompteEpargne"/>
+        <mapping class="org.example.exerciceperso.entity.comptesbancaires.CompteCourant"/>
+        <mapping class="org.example.exerciceperso.entity.Client"/>
+        <mapping class="org.example.exerciceperso.entity.Operation"/>
+        <mapping class="org.example.correctionexohibernate.entity.product.Product"/>
+        <mapping class="org.example.correctionexohibernate.entity.Sell"/>
+        <mapping class="org.example.correctionexohibernate.entity.SellProduct"/>
+        <mapping class="org.example.correctionexohibernate.entity.Customer"/>
+        <mapping class="org.example.correctionexohibernate.entity.product.ProductCloth"/>
+        <mapping class="org.example.correctionexohibernate.entity.product.ProductElectronic"/>
+        <mapping class="org.example.correctionexohibernate.entity.product.ProductFood"/>
     </session-factory>
 </hibernate-configuration>
